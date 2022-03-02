@@ -2,15 +2,17 @@
 *{
 padding: 20px;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-background-color: #979292;
+background-color: black;
 color: #ffffff;
 font-size: 16px;
 }
 header {
-
-    border: 1px solid blue;
-    background-color: darkkhaki;
-    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-end;
+     border: 5px solid blue;
+    /* background-color: darkkhaki; */
+    
     
  }
 
@@ -24,7 +26,12 @@ header {
 
 figure {
 display: flex;
-justify-content: center;    
+justify-content: center; 
+
+}
+img{
+    width: 50%;
+    min-width: 400px
 }
 
 main h2{
@@ -35,17 +42,18 @@ main h2{
 
 }
 footer{
-    padding: 20px;
+    display: flex;
+    justify-content: space-between;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffff;
+    border:  3px solid #2b00ff;
 }
 
 
 li{
-    display: flex;
-    flex-direction: row;
+   display: inline-block;
     margin-left: 25px;
-    
+   
 }
 
 /* .viewport {
