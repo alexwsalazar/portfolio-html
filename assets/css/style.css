@@ -12,15 +12,20 @@ header {
     justify-content: flex-end;
      border: 5px solid blue;
     /* background-color: darkkhaki; */
+    background-image: url(https://render.fineartamerica.com/images/rendered/default/poster/8/5.5/break/images-medium-5/downtown-dallas-skyline-reflections-matthew-visinsky.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-size: contain; */
     
     
+       
  }
 
 .myname {
     font-size: 600%;
-    margin: 25px;
-    margin-left: 25%;
-    color: #2b00ff;
+    margin: 20px;
+    margin-left: 20%;
+    color: #fa0606;
 
 }
 
@@ -31,28 +36,36 @@ justify-content: center;
 }
 img{
     width: 50%;
-    min-width: 400px
+    min-width: 50%
 }
 
 main h2{
 
     color: green;
-    font-size: 200%;
-    margin: 1%;
+    font-size: 400%;
+    margin: 3%;
 
 }
 footer{
+    font-size: 400%;
+    
     display: flex;
     justify-content: space-between;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #ffffff;
+    color: #a7680a;
     border:  3px solid #2b00ff;
 }
+footer h2{
 
-
+    color: #a7680a;
+}
+/* ul {
+    font-size: 400%;
+} */
 li{
-   display: inline-block;
+  display: inline-block;
     margin-left: 25px;
+    font-size: 500%;
    
 }
 
@@ -60,12 +73,27 @@ li{
     display: flex;
     
 } */
+.paragraphs{
+    display: flex;
+    flex-direction: row;
+    /* border: 3px solid blue; */
 
+}
 p {
+    font-size: 20px;
     margin: 1%;
     padding: 2%;
     letter-spacing: 2px;
     line-height: 25px;
+    border: 3px solid blue;
+   
+}
+span.hover:hover::after {
+    content: 'Thank You';
+    position: absolute;
+    font-size: 200%;
+    left: 600px;
+
 }
 
 /* footer ul li{
