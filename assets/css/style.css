@@ -62,9 +62,14 @@ footer h2{
 /* ul {
     font-size: 400%;
 } */
+
+li :hover{
+    color: #fa0606;
+}
+
 li{
   display: inline-block;
-    margin-left: 25px;
+    /* margin-left: 25px; */
     font-size: 500%;
    
 }
@@ -75,11 +80,22 @@ li{
 } */
 .paragraphs{
     display: flex;
-    flex-direction: row;
+    flex-direction: row wrap;
+    font-weight: bold;
+    text-align: center;
     /* border: 3px solid blue; */
 
 }
+.header{
+    align-self: center;
+}
+.paragraphs{
+    padding: 10px;
+    flex: 1 100%;
+}
 p {
+    /* display: flex;
+    flex-direction: row; */
     font-size: 20px;
     margin: 1%;
     padding: 2%;
@@ -89,10 +105,12 @@ p {
    
 }
 span.hover:hover::after {
-    content: 'Thank You';
+    content: 'Thank You!';
     position: absolute;
-    font-size: 200%;
+    font-size: 500%;
     left: 600px;
+    color: lightgreen;
+    text-shadow: none;
 
 }
 
