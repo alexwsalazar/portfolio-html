@@ -3,8 +3,8 @@
 ## overview
 
 My first attemp in creating a portfolio, thank you for taking your 
-time to look through me information.
+time to look through my information.
 
 ## web page preview 
 
-![portfolio preview](./assets/images/Screenshot (4).png)
+ ![portfoliopreview](./assets/images/Screenshot.jpg)

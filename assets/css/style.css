@@ -108,7 +108,7 @@ span.hover:hover::after {
     content: 'Thank You!';
     position: absolute;
     font-size: 500%;
-    left: 600px;
+    left: 500px;
     color: lightgreen;
     text-shadow: none;
 
