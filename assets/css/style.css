@@ -161,13 +161,14 @@ body{
 }
 
 .project-btn{
-    height: 40px;
+    height: 30px;
     text-transform: capitalize;
     font-size: 18px;
     border: none;
     background: #000;
     color: #fff;
     cursor: pointer;
+    text-align: center;
 }
 
 .project-btn.live{
@@ -305,19 +306,19 @@ body{
 .skill-card:nth-child(1) .skill-level{
     background: #ff4f4f28;
     border-color: #ff4f4f;
-    color: #ff4f4f;
+    color: #ffffff;
 }
 
 .skill-card:nth-child(2) .skill-level{
     background: #4fa0ff28;
     border-color: #4fa0ff;
-    color: #4fa0ff;
+    color: #ffffff;
 }
 
 .skill-card:nth-child(3) .skill-level{
     background: #ffed4f28;
     border-color: #ffed4f;
-    color: #ffed4f;
+    color: #fafafa;
 }
 
 .skill-card:nth-child(4) .skill-level{
