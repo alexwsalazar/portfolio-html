@@ -18,3 +18,4 @@ links.forEach((link, i) => {
     })
 })
 
+document.querySelector("project-btn github").addEventListener("click")
