@@ -105,7 +105,7 @@ body{
     text-transform: capitalize;
     text-align: center;
     margin-bottom: 50px;
-    color: #1a1a1a;
+    color: #503f08;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-stroke: 8px transparent;
@@ -135,7 +135,7 @@ body{
 .project-content{
     position: relative;
     padding: 40px;
-    color: #fff;
+    color: rgb(252, 7, 7);
     transition: .5s;
     opacity: 0;
 }
@@ -161,7 +161,7 @@ body{
 }
 
 .project-btn{
-    height: 30px;
+    height: 25px;
     text-transform: capitalize;
     font-size: 18px;
     border: none;
@@ -261,7 +261,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 100px;
-    color: #fff;
+    color: rgb(255, 2, 2);
 }
 
 .skill-card{
