@@ -8,8 +8,6 @@ I have updated my portfolio adding seperate pages for each navagation link. adde
 
  ![portfoliopreview](./assets/images/Screenshot%20(25).jpg)
  ![portfoliopreview](./assets/images/Screenshot%20(26).jpg)
- ![portfoliopreview](./assets/images/Screenshot%20(28).jpg)
- 
 
  ## links 
 
